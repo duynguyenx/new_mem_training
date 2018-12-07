@@ -6,17 +6,22 @@ URL = {
     'LOGOUT': '/logout'
 }
 
+CREDENTIALS = {
+    'USERNAME': 'duy.nguyen@unified.com',
+    'PASSWORD': 'Unified123!',
+
+}
+
 
 LOG_IN = {
     'EMAIL_TEXTBOX': (By.NAME, 'username'),
     'PASSWORD_TEXTBOX': (By.NAME, 'password'),
     'LOGIN_BUTTON': (By.ID, 'submit'),
-    'USERNAME': 'duy.nguyen@unified.com',
-    'PASSWORD': 'Unified123!',
     'FORGOT_PASSWORD_LINK' : (By.LINK_TEXT, 'Forgot Password'),
     'LO_GO': (By.CLASS_NAME, 'logo'),
     'LOGIN_LABEL': (By.CLASS_NAME, 'pull-left no-margin'),
-    'ALERT_MESSAGE': (By.ID, 'alertAuthErrorMsg')
+    'AUTHEN_MESSAGE': (By.ID, 'alertAuthErrorMsg'),
+    'INVALID_PASSWORD_MESSAGE_TEXT': 'Could not authenticate user. Please check username and password.'
 }
 
 

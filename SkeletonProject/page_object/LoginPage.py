@@ -16,5 +16,3 @@ class LoginPage(BasePage):
         self.click_element(locators.LOG_IN['LOGIN_BUTTON'])
 
 
-    def get_text_username_thumnails(self,by, selector):
-        self.get_text(by,selector)

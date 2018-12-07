@@ -13,14 +13,6 @@ class BasePage(object):
         self.driver = driver
 
 
-    def get_max_size_window(self):
-        self.driver.maximize_window()
-
-
-    def get_min_size_window(self):
-        self.driver.minimize_window()
-
-
     def get_title_url(self):
         return self.driver.title
 
